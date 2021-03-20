@@ -1,0 +1,16 @@
+{
+  "name": "fig-fetcher",
+  "version": "1.0.0",
+  "description": "Takes a URL and parses it into a valid spec file",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-html-parser": "^3.1.0",
+    "string-strip-html": "^8.2.5"
+  }
+}
